@@ -1,0 +1,37 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "link": "https://kiero.co/",
+      "company": "Kiero",
+      "title": "Web Developer (front)",
+      "dateFrom": "Oct 2021",
+      "dateTo": "Current",
+      "info": [
+        "Developing components and pages as needed using react/next",
+        "Updating a better user experience"
+      ],
+      "stack": ["React","Next","Redux", "Sass", "Css", "Material UI", "Node"],
+      "logowidth": 80,
+ 
+      "colourPrimary": "linear-gradient(to bottom, rgb(233, 35, 35), rgb(91, 8, 8))",
+      "colourSecondary": "linear-gradient(to bottom,rgb(233, 63, 63), rgb(133, 15, 15))"
+    },
+    {
+      "id": 0,
+      "link": "https://zonassoft.com/",
+      "company": "Zonassoft",
+      "title": "Web developer (front)",
+      "dateFrom": "Mar 2021",
+      "dateTo": "Agu 2021",
+      "info": [
+        "Web development of web platform (admin and cliente) using rectjs"
+      ],
+      "stack": ["React", "Redux", "Node", "Styled-components"],
+      "logoheight": 50,
+      "colourPrimary": "linear-gradient(to bottom, rgb(25, 70, 191), rgb(20, 22, 99))",
+      "colourSecondary": "linear-gradient(to bottom, rgb(25, 70, 191), rgb(20, 22, 99))"
+    }
+    
+  ]
+}

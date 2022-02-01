@@ -1,0 +1,29 @@
+{
+  "featured_projects": [
+    {
+      "id": 0,
+      "name": "cuba-ue",
+      "link": "https://www.uecooperacioncuba.eu/",
+      "description": "A responsive two-page website made with reactjs.",
+      "colour": "linear-gradient(to top, rgb(25, 70, 191), rgb(20, 22, 99))",
+      "format": "svg",
+      "languages": [
+        { "name": "Typescript", "color": "rgb(43, 116, 137)" },
+        { "name": "Html", "color": "rgb(227, 76, 38)" },
+        { "name": "Css", "color": "rgb(86, 61, 124)" }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Kiero",
+      "link": "https://kiero.co/",
+      "description": "Responsible for develop UI/UX on web.",
+      "colour": "linear-gradient(to bottom right, rgb(233, 35, 35), rgb(91, 8, 8))",
+      "languages": [
+        { "name": "JavaScript", "color": "rgb(241, 224, 90)" },
+        { "name": "Html", "color": "rgb(227, 76, 38)" },
+        { "name": "Css", "color": "rgb(86, 61, 124)" }
+      ]
+    }
+  ]
+}

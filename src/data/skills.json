@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "skillName": "Html",
+      "amount": "90"
+    },
+    {
+      "id": 2,
+      "skillName": "Css",
+      "amount": "90"
+    },
+    { "id": 3, "skillName": "Javascript", "amount": "88" },
+    {
+      "id": 1,
+      "skillName": "React.js",
+      "amount": "93"
+    },
+    { "id": 11, "skillName": "Matrial UI", "amount": "90" },
+    { "id": 10, "skillName": "Styled component", "amount": "90" },
+    { "id": 7, "skillName": "Bootstrap", "amount": "85" },
+    { "id": 9, "skillName": "Tailwind css", "amount": "80" },
+    { "id": 6, "skillName": "Redux", "amount": "85" },
+    {
+      "id": 4,
+      "skillName": "Node.js",
+      "amount": "80"
+    },
+    {
+      "id": 5,
+      "skillName": "REST",
+      "amount": "90"
+    }
+    
+  ]
+}
