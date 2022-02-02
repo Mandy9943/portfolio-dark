@@ -44,9 +44,7 @@ const About = () => {
                 options={{
                   strings: [
                     'learning new technologies',
-                    'exercising',
                     'solving complex problems',
-                    'skiing',
                     'fixing hard-to-fix bugs',
                     'trying new things',
                     'collaborating with others',
