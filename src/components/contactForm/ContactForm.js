@@ -4,6 +4,7 @@ import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles'
 import axios from 'axios'
+import { Typography } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   email: {
@@ -79,10 +80,14 @@ const ContactForm = () => {
       message:messageText
     }
  
-    console.log("form",data);
-    axios.post("http://localhost:3000/cotact", {email:data.email, message:data.message}).then((res)=>{
-      setStatus("SUCCESS")
+    
+    axios.post("https://armando-portfolio-app.herokuapp.com/cotact", {email:data.email, message:data.message})
+    .then((res)=>{
+      setStatus("SUCCESS");
+      emailText("");
+      messageText("");
     }).catch((err)=>{
+      
       console.log(err);
     });
   }
@@ -126,7 +131,7 @@ const ContactForm = () => {
           variant="filled"
         />
         {status === 'SUCCESS' ? (
-          <p className="email-success">Thanks!</p>
+          <Typography  style={{color:"#0be779", textAlign:"center"}}>Thanks!, I will try to response soon</Typography>
         ) : (
           <Button className={classes.submit} type="submit" variant="contained">
             Submit

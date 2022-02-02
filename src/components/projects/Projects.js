@@ -32,12 +32,9 @@ const useStyles = makeStyles((theme) => ({
 const client = new ApolloClient({
   uri: 'https://api.github.com/graphql',
   request: (operation) => {
-    console.log(
-      `Token is ${process.env.REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN}`
-    )
     operation.setContext({
       headers: {
-        authorization: `Bearer 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`,
+        authorization: `Bearer ${process.env.REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN}`,
       },
     })
   },
@@ -46,7 +43,7 @@ const client = new ApolloClient({
 const queryInfo = {
   owner: 'Mandy9943',
   repositories: [
-    'react-portfolio',
+    
     'rock-paper-scissors',
     'cloth-shop',
     'bank-operations-crud',
