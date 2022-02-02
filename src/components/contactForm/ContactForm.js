@@ -4,7 +4,7 @@ import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles'
 import axios from 'axios'
-import { Typography } from '@material-ui/core'
+import { Box, CircularProgress, Typography } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   email: {
@@ -79,15 +79,18 @@ const ContactForm = () => {
       email:emailText,
       message:messageText
     }
- 
+    setStatus("LOADING")
     
     axios.post("https://armando-portfolio-app.herokuapp.com/cotact", {email:data.email, message:data.message})
     .then((res)=>{
-      setStatus("SUCCESS");
-      emailText("");
-      messageText("");
+      if (res.data.message === "success") {
+        setStatus("SUCCESS");
+        setEmailText("");
+        setMessageText("");
+        
+      }
     }).catch((err)=>{
-      
+      setStatus("ERROR");
       console.log(err);
     });
   }
@@ -118,6 +121,7 @@ const ContactForm = () => {
           value={emailText}
           onChange={handleEmailChange}
           variant="filled"
+          required
         />
         <TextField
           className={classes.message}
@@ -129,15 +133,23 @@ const ContactForm = () => {
           multiline
           rows="5"
           variant="filled"
+          required
         />
-        {status === 'SUCCESS' ? (
-          <Typography  style={{color:"#0be779", textAlign:"center"}}>Thanks!, I will try to response soon</Typography>
-        ) : (
-          <Button className={classes.submit} type="submit" variant="contained">
-            Submit
-          </Button>
+        {status === 'SUCCESS' && (
+          <Typography variant='h5'  style={{color:"#0be779", textAlign:"center"}}>Thanks!, I will try to response soon</Typography>
+        ) }
+        {status === "LOADING" && (
+          <Box sx={{textAlign:"center"}}>
+          <CircularProgress color="primary"  />
+          </Box>
         )}
-        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+         {status === "" && (
+          <Button className={classes.submit} type="submit" variant="contained">
+          Submit
+        </Button>
+        )}
+  
+        {status === 'ERROR' && <Typography  variant='h5' style={{color:"#e70b0b", textAlign:"center"}}>Ooops! There was an error.</Typography>}
       </form>
     </div>
   )
