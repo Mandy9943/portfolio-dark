@@ -1,20 +1,19 @@
+import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import React, { useState } from 'react'
-import './Home.css'
-import Fade from 'react-reveal/Fade'
 import { Bounce } from 'react-reveal'
+import Fade from 'react-reveal/Fade'
 import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect'
-import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
-import Navbar from '../navbar/Navbar'
 import profile from '../../images/profile.jpg'
 import linkedin from '../../images/social/linkedin.png'
+import Navbar from '../navbar/Navbar'
+import './Home.css'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
   return (
     <div className="home-wrapper">
       <div className="home">
-
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
           <Fade bottom distance="40px">
             <img
@@ -24,7 +23,8 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Armando Martin Calderón</span>.{' '}
+              Hi, I'm{' '}
+              <span className="name">Armando Cesar Martin Calderón</span>.{' '}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>

@@ -1,29 +1,12 @@
 {
   "experience": [
     {
-      "id": 1,
-      "link": "https://kiero.co/",
-      "company": "Kiero",
-      "title": "Web Developer (front)",
-      "dateFrom": "Oct 2021",
-      "dateTo": "Current",
-      "info": [
-        "Developing components and pages as needed using react/next",
-        "Updating a better user experience"
-      ],
-      "stack": ["React","Next","Redux", "Sass", "Css", "Material UI", "Node"],
-      "logowidth": 80,
- 
-      "colourPrimary": "linear-gradient(to bottom, rgb(233, 35, 35), rgb(91, 8, 8))",
-      "colourSecondary": "linear-gradient(to bottom,rgb(233, 63, 63), rgb(133, 15, 15))"
-    },
-    {
       "id": 0,
       "link": "https://zonassoft.com/",
       "company": "Zonassoft",
       "title": "Web developer (front)",
-      "dateFrom": "Mar 2021",
-      "dateTo": "Agu 2021",
+      "dateFrom": "Mar 2019",
+      "dateTo": "Agu 2019",
       "info": [
         "Web development of web platform (admin and cliente) using rectjs"
       ],
@@ -31,7 +14,45 @@
       "logoheight": 50,
       "colourPrimary": "linear-gradient(to bottom, rgb(25, 70, 191), rgb(20, 22, 99))",
       "colourSecondary": "linear-gradient(to bottom, rgb(25, 70, 191), rgb(20, 22, 99))"
+    },
+    {
+      "id": 1,
+      "link": "https://kiero.co/",
+      "company": "Kiero",
+      "title": "Web Developer (front)",
+      "dateFrom": "Oct 2019",
+      "dateTo": "Feb 2021",
+      "info": [
+        "Developing components and pages as needed using react/next",
+        "Updating a better user experience"
+      ],
+      "stack": ["React", "Next", "Redux", "Sass", "Css", "Material UI", "Node"],
+      "logowidth": 80,
+
+      "colourPrimary": "linear-gradient(to bottom, rgb(233, 35, 35), rgb(91, 8, 8))",
+      "colourSecondary": "linear-gradient(to bottom,rgb(233, 63, 63), rgb(133, 15, 15))"
+    },
+
+    {
+      "id": 2,
+      "link": "https://eldar.finance/",
+      "company": "Eldar Finance",
+      "title": "Web developer (front and back)",
+      "dateFrom": "Feb 2022",
+      "dateTo": "Oct 2022",
+      "info": ["Web development of web platform  using rectjs"],
+      "stack": [
+        "React",
+        "Redux",
+        "Node",
+        "Chakra-UI",
+        "Next",
+        "Strapi",
+        "Erdjs"
+      ],
+      "logowidth": 90,
+      "colourPrimary": "linear-gradient(180deg, rgba(29,21,52,1) 0%, rgba(56,1,154,1) 100%)",
+      "colourSecondary": "linear-gradient(180deg, rgba(29,21,52,1) 0%, rgba(56,1,154,1) 100%)"
     }
-    
   ]
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import './About.css'
-import Typewriter from 'typewriter-effect'
-import { Link } from 'react-scroll'
 import { Fade } from 'react-reveal'
+import { Link } from 'react-scroll'
+import Typewriter from 'typewriter-effect'
 import Section from '../section/Section'
 import Skills from '../skills/Skills'
+import './About.css'
 
 const About = () => {
   return (
@@ -30,8 +30,8 @@ const About = () => {
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              You can find me working with UE5, JavaScript, React, Node,
-              and Next.
+              You can find me working with UE5, JavaScript, React, Node, and
+              Next.
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
@@ -56,9 +56,9 @@ const About = () => {
               <p>.</p>
             </div>
             <p>
-              Since 2020 - I've spent my time seeking and learning new
+              Since 2019 - I've spent my time seeking and learning new
               technologies and forms of digital expression. This has led to me
-              working on some {' '}
+              working on some{' '}
               <Link
                 className="textLink"
                 to="projects"

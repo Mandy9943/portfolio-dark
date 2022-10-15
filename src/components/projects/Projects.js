@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react'
-import './Projects.css'
-import { Fade } from 'react-reveal'
-import ApolloClient, { gql } from 'apollo-boost'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles'
+import ApolloClient, { gql } from 'apollo-boost'
+import React, { useEffect, useState } from 'react'
+import { Fade } from 'react-reveal'
 import { featured_projects } from '../../data/featured_projects.json'
+import FeaturedProject from '../featuredProject/FeaturedProject'
 import Project from '../project/Project'
 import Section from '../section/Section'
-import FeaturedProject from '../featuredProject/FeaturedProject'
+import './Projects.css'
 
 const useStyles = makeStyles((theme) => ({
   moreProjects: {
@@ -43,12 +43,11 @@ const client = new ApolloClient({
 const queryInfo = {
   owner: 'Mandy9943',
   repositories: [
-    
     'rock-paper-scissors',
     'cloth-shop',
     'bank-operations-crud',
     'space-demo',
-    'working-mapbox-api',
+    'swap-maiar',
   ],
 }
 
@@ -104,7 +103,7 @@ const Projects = () => {
 
   if (loadProjectsError === false) {
     return (
-      <Section title="Projects">
+      <Section title="Some projects">
         <div className="projects-content">
           <ul className="projects-list">
             {featured_projects.map((featuredProject) => {

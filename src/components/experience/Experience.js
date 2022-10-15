@@ -1,13 +1,13 @@
 import React from 'react'
-import './Experience.css'
 import { Fade } from 'react-reveal'
-import Section from '../section/Section'
-import ExperienceCard from '../experienceCard/ExperienceCard'
 import experienceData from '../../data/experience.json'
+import ExperienceCard from '../experienceCard/ExperienceCard'
+import Section from '../section/Section'
+import './Experience.css'
 
 const Experience = () => {
   return (
-    <Section title="Experience Last year">
+    <Section title="Experience with companies">
       <div className="experience-content">
         <ul className="experience-list">
           {experienceData.experience.reverse().map((exp) => (

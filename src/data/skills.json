@@ -16,6 +16,7 @@
       "skillName": "React.js",
       "amount": "93"
     },
+    { "id": 12, "skillName": "Chakra UI", "amount": "95" },
     { "id": 11, "skillName": "Matrial UI", "amount": "90" },
     { "id": 10, "skillName": "Styled component", "amount": "90" },
     { "id": 7, "skillName": "Bootstrap", "amount": "85" },
@@ -31,6 +32,5 @@
       "skillName": "REST",
       "amount": "90"
     }
-    
   ]
 }
