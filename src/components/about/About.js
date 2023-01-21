@@ -30,8 +30,8 @@ const About = () => {
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              You can find me working with UE5, JavaScript, React, Node, and
-              Next.
+              You can find me working with JavaScript, Typescript, React, Node,
+              and Next.
             </p>
             <div className="typewriter">
               <p className="typewriter-start">

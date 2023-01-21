@@ -35,12 +35,14 @@
 
     {
       "id": 2,
-      "link": "https://eldar.finance/",
-      "company": "Eldar Finance",
-      "title": "Web developer (front and back)",
+      "link": "https://www.quantumx.network/",
+      "company": "QuantumX Team",
+      "title": "Web3 developer",
       "dateFrom": "Feb 2022",
-      "dateTo": "Oct 2022",
-      "info": ["Web development of web platform  using rectjs"],
+      "dateTo": "Jan 2023",
+      "info": [
+        "I am a lead programmer for the front-end platform of both eldar and quantumx (eldar rebranded as quantumx) integrating smart contracts from the multiversx blockchain for all dapps."
+      ],
       "stack": [
         "React",
         "Redux",
@@ -51,8 +53,8 @@
         "Erdjs"
       ],
       "logowidth": 90,
-      "colourPrimary": "linear-gradient(180deg, rgba(29,21,52,1) 0%, rgba(56,1,154,1) 100%)",
-      "colourSecondary": "linear-gradient(180deg, rgba(29,21,52,1) 0%, rgba(56,1,154,1) 100%)"
+      "colourPrimary": "linear-gradient(180deg, #22F7DD 0%, #20A7DD 100%)",
+      "colourSecondary": "linear-gradient(180deg, #2097DD 0%, #2077DD 100%)"
     }
   ]
 }

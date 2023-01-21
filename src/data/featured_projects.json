@@ -27,14 +27,11 @@
     },
     {
       "id": 2,
-      "name": "Eldar",
-      "link": "https://eldar.finance/",
-      "description": "Eldar is a Platform that provides a tightly integrated ecosystem of dApps, that aims to get full advantage of the capabilities of Elrond Network.",
-      "colour": "linear-gradient(180deg, rgba(24,11,64,1) 0%, rgba(56,1,154,1) 100%)",
-      "languages": [
-        { "name": "JavaScript", "color": "rgb(241, 224, 90)" },
-        { "name": "Css", "color": "rgb(86, 61, 124)" }
-      ]
+      "name": "QuantumxTeam",
+      "link": "https://www.quantumx.network/",
+      "description": "QuantumX's goal is to create dApps that provide true value to their users, by combining traditional DEFI investing methods with real world applications.",
+      "colour": "linear-gradient(180deg, #2097DD 0%, #2077DD 100%)",
+      "languages": [{ "name": "Typescript", "color": "rgb(49, 120, 198)" }]
     },
     {
       "id": 3,
