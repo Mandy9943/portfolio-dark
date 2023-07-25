@@ -1,19 +1,6 @@
 {
   "featured_projects": [
     {
-      "id": 0,
-      "name": "cuba-ue",
-      "link": "https://www.uecooperacioncuba.eu/",
-      "description": "European Union - Cuba cooperation projects website",
-      "colour": "linear-gradient(to top, rgb(25, 70, 191), rgb(20, 22, 99))",
-      "format": "svg",
-      "languages": [
-        { "name": "Typescript", "color": "rgb(43, 116, 137)" },
-        { "name": "Html", "color": "rgb(227, 76, 38)" },
-        { "name": "Css", "color": "rgb(86, 61, 124)" }
-      ]
-    },
-    {
       "id": 1,
       "name": "Kiero",
       "link": "https://kiero.co/",
@@ -34,12 +21,63 @@
       "languages": [{ "name": "Typescript", "color": "rgb(49, 120, 198)" }]
     },
     {
+      "id": 7,
+      "name": "combohub",
+      "link": "https://combohub.website/",
+      "description": "ComboHub is your platform to buy exclusive fashion and style combos. Explore our selection of products and find the perfect combo for you.",
+      "colour": "linear-gradient(180deg, #14042c 0%, #feb302 100%)",
+      "languages": [{ "name": "Typescript", "color": "rgb(49, 120, 198)" }]
+    },
+    {
+      "id": 8,
+      "name": "amstore",
+      "link": "https://amstore.agency/",
+      "description": "We help Cubans find their ideal products. Shopping for clothes, food, computer equipment, etc. Everything you need in one place.",
+      "colour": "linear-gradient(180deg, #805AD5 0%, #e74c3c 100%)",
+      "languages": [{ "name": "Typescript", "color": "rgb(49, 120, 198)" }]
+    },
+    {
       "id": 3,
       "name": "NFT Nexus",
       "link": "https://thenftnexus.app/",
       "description": "The Nexus staking service. NFT creators will be alble to create pools for their collection so their community can stake their NFTs.",
       "colour": "linear-gradient(180deg, rgba(9,2,38,1) 0%, rgba(5,0,14,1) 100%)",
       "languages": [{ "name": "Typescript", "color": "rgb(49, 120, 198)" }]
+    },
+    {
+      "id": 4,
+      "name": "beskar",
+      "link": "https://beskarplay.com/",
+      "description": "Swap and buy liquidity easy for bsk",
+      "colour": "linear-gradient(to top, #D8B919, #625721)",
+      "format": "svg",
+      "languages": [{ "name": "Typescript", "color": "rgb(43, 116, 137)" }]
+    },
+    {
+      "id": 5,
+      "name": "beskar",
+      "link": "https://beskardao.com/",
+      "description": "Get more impressions, expand your network and increase your sales. It’s that simple.",
+      "colour": "linear-gradient(to top, #0D6FF0, #7AC1E4)",
+      "format": "svg",
+      "languages": [{ "name": "Typescript", "color": "rgb(43, 116, 137)" }]
+    },
+    {
+      "id": 5,
+      "name": "eseuri",
+      "link": "https://eseuri.com/",
+      "description": "Essays written by university graduates from the United Kingdom.",
+      "colour": "linear-gradient(to top, #2c5282, #63b3ed)",
+      "format": "svg",
+      "languages": [{ "name": "Typescript", "color": "rgb(43, 116, 137)" }]
+    },
+    {
+      "id": 6,
+      "name": "printa",
+      "link": "https://printa.vercel.app/",
+      "description": "Fast & Reliable custom QR code cards for Maiar’s referral program",
+      "colour": "linear-gradient(to top, #1A365D, #2c5282)",
+      "languages": [{ "name": "Typescript", "color": "rgb(43, 116, 137)" }]
     }
   ]
 }
